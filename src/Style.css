@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color:white
+}
+.container1{
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    background-color:antiquewhite;
+    justify-content: center;
+
+}
+.input{
+    height: 20px;
+    width: 400px;
+    border-radius: 3px;
+
+}
+.btn{
+    border-radius: 3px;
+    cursor: pointer;
+   
+}
+.container2{
+    height: 400px;
+    width: 600px;
+    border-radius: solid 2px yellow;
+  
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logobox{
+    height: 150px;
+    width: 600px;
+    background-color: aqua;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.infobox{
+    height: 150px;
+    width: 600px;
+
+    display: flex;
+    border-radius: 10px;
+}
+.tempbox{
+    
+    flex-basis: 60%;
+    background-color:aqua; 
+    border-radius: 10px;
+    color:black;
+    font-size: 20px;
+    padding-left: 20px;
+    
+}
+.datebox{
+    
+    flex-basis: 40%;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.bottomcontainer{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    
+    border-radius: 10px;
+}
+.b1{
+    display: flex;
+    flex-basis: 50%;
+
+    border-radius: 10px;
+}
+.b2{
+    display: flex;
+    flex-basis: 50%;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+.b11{
+    
+    flex-basis: 50%;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+.b12{
+   
+    flex-basis: 50%;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+#logo1{
+    height: 100px;
+    width: 100px;
+}
+/*{
+    084a5fd3d336a1b461717b16d9fd8b17
+    https://api.openweathermap.org/data/2.5/weather?q=pune&appid=084a5fd3d336a1b461717b16d9fd8b17
+    https://api.openweathermap.org/data/2.5/weather?q=pune&appid=084a5fd3d336a1b461717b16d9fd8b17
+}*/
+.atlas{
+    height: 100px;
+    width: 100px;
+}
+.mainlogo{
+    height: 100px;
+    width: 100px;
+}
+.timesymbol{
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    }
+    .smalllogo{
+        height: 30px;
+        width: 30px;
+    }
